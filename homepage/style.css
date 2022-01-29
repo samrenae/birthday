@@ -1,0 +1,63 @@
+
+header,footer{
+    clear: both;
+}
+body{
+    background: lavender;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+h1 > span{
+    color: lightcoral;
+}
+h1 > span + span{
+    color: lightseagreen;
+}
+h1 > span + span + span{
+    color: maroon;
+}
+header{
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background: rgb(124, 28, 89);
+}
+
+nav{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 555px;
+    overflow: auto;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    display: block;
+    padding: 5px 21px;
+    background: mediumvioletred;
+    color: black;
+    float: left;
+    text-align: center;
+    border-top: 2px solid rgb(180, 90, 147);
+    border-right: 2px solid rgb(161, 43, 118);
+    border-bottom: 2px solid rgb(161, 43, 118);
+    border-left: 2px solid rgb(180, 90, 147);
+}
+img{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+footer{
+    font-size: 17px;
+    text-align: center;
+    color: rosybrown;
+}
